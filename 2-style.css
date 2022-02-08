@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.primeira{
+    width: calc(100% - 200px);
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+a{
+    z-index: 99;
+    right: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50% -45%);
+
+    width: calc(100% - 60%);
+    height: 50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    color: #1100ff;
+    transition: .3s ease-in-out;
+}
+
+a:hover{
+    font-size: 2rem;
+    text-shadow: 0 0 1rem #1100ff;
+}
